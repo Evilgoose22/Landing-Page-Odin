@@ -1,20 +1,97 @@
 /* Base Styles */
-:root {
-    --clr-dark: #1F2937;
-    --txt-main: 48px #f9faf8 bolder;
-    --txt-hero: 18px #E5E7EB;
-    --txt-logo: #F9FAF8;
-    --clr-btn: #3882F6;
-    --txt-info: 36px bolder #1F2937;
-    --clr-bkgd:#E5E7EB;
-    --txt-qt:36px italic #1F29E7
+* {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+header{
+    background-color: #1F2937;
+    padding: 2% 10%;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    margin: 5px 10px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 0px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.header-body {
+    display: flex;
+    justify-content: space-between;
+    padding: 10% 0;
+}
+
+button {
+    background-color: #3882F6;
+    border-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+}
+
+.img-txt-box {
+    height: 300px;
+    width: 500px;
+    background-color: grey;
+    color: #F9FAF8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
-/* Header */
+/* Container 1 */
+.container-1 {
+    xxx
+}
+
+.img-container{
+    xxx
+}
+
+.img {
+    xxx
+}
+
+p.grey {
+    xxx
+}
+/* Container 2 */
 
 
-/* Body */
+/* Container 3 */
+
 
 
 /* Footer */
