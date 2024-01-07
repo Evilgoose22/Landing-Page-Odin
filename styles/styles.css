@@ -1,17 +1,18 @@
 /* Base Styles */
 * {
     font-size: 18px;
-    color: #E5E7EB;
 }
 
 a {
     text-decoration: none;
+    color: #E5E7EB;
 }
 
 /* Header */
 header{
     background-color: #1F2937;
     padding: 2% 10%;
+    color: #E5E7EB;
 }
 
 .banner {
@@ -73,22 +74,66 @@ button {
 
 /* Container 1 */
 .container-1 {
-    xxx
+    display: flex;
+    flex-direction: column;
+    color: #1F2937;
+    padding: 2% 10% 4% 10%;
+    align-items: center;
+}
+
+.containers-1 {
+    display: flex;
+    flex-direction: row;
+    color: #1F2937;
+
 }
 
 .img-container{
-    xxx
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .img {
-    xxx
+    height: 100px;
+    width: 100px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
 }
 
-p.grey {
-    xxx
+h2 {
+    font-size: 36px;
 }
+
+.text-container-1 {
+    padding: 8px 56px;
+    text-align: center;
+}
+
+
 /* Container 2 */
+.container-2 {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 10% 10% 10% 10%;
+}
 
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    justify-content: flex-start;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
 
 /* Container 3 */
 
